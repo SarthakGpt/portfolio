@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: DARKSLATEGREY;
+    width: 250px;
+    height: 100vh;
+    padding: 5px 8px;
+    font-family: 'Kalnia', serif;
+    font-size: 26px;
+
+    font-weight: 400;
+    color: yellowgreen;
+}
+
+.sidebar nav {
+    padding: 10px 38px 0px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    padding: 0px 0px 20px 0px;
+    font-weight: 150;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.sidebar nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.hdname:hover {
+
+    /* text-transform: lowercase; */
+    color: yellow;
+    text-shadow: 3px 1px black;
+    cursor: pointer;
+    font-size: 26px;
+
+}
+
+.sidebar nav li a:hover {
+    text-transform: lowercase;
+    color: yellow;
+    text-shadow: 3px 1px black;
+
+}
+
+.main {
+    background-color: lightgoldenrodyellow;
+    width: 85vw;
+}
+
+.infocontainer {
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    width: 70vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devpic img {
+    height: 64vh;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.hello {
+    font-size: 65px;
+
+}
+
+.name {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 2px 0px 0px 0px;
+}
+
+.about {
+    font-size: 26px;
+
+}
+
+
+.contactform {
+    margin: 105px 135px;
+    border-radius: 15px;
+    border: 6px double #023323;
+    padding: 20px 200px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactform div {
+    padding: 10px 0px;
+    font-weight: 600;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-weight:900;
+    font-style: oblique;
+    padding-bottom: 15px;
+    
+}
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 0px;
+}
+.contactform form div input{
+    width: 16vw;
+    border-radius: 6px;
+    margin: 5px 0px 0px 0px;
+    padding: 2px;
+}
+.check
+{
+    font-weight: 600;
+}
+
+#emailHelp
+{
+    color: midnightblue;
+    font-size: 9px;
+    margin: 0x 8px;
+}
+.btn {
+    margin: 6px 6px 0px 0px;
+    border: 5px double rgba(255, 255, 255, 0.925);
+    padding: 12px 15px;
+    color: white;
+    text-transform: uppercase;
+    background-color: DARKSLATEGREY;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: yellowgreen;
+    background-color: rgba(2, 2, 2, 0.925);
+
+}

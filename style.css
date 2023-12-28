@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color:DARKSLATEGREY;
+    width: 250px;
+    height: 100vh;
+    padding: 5px 8px;
+    font-family: 'Kalnia', serif;
+    font-size: 26px;
+    
+    font-weight: 400;
+    color:yellowgreen;
+}
+
+.sidebar nav {
+    padding: 10px 38px 0px;}
+
+.sidebar nav li {
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    padding: 0px 0px 20px 0px;
+    font-weight: 150;
+    font-size: 21px;
+    cursor: pointer;
+}
+.sidebar nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.hdname:hover {
+
+    /* text-transform: lowercase; */
+    color: yellow;
+    text-shadow: 3px 1px black;
+    cursor: pointer;
+    font-size: 26px;
+    
+}
+
+.sidebar nav li a:hover {
+    text-transform: lowercase;
+    color: yellow;
+    text-shadow: 3px 1px black;
+    
+}
+
+.main {
+    background-color: lemonchiffon;
+    width: 85vw;
+}
+
+.infocontainer {
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    width: 70vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devpic img {
+    height: 64vh;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'Source Code Pro', monospace;
+    ;
+}
+
+.hello {
+    font-size: 65px;
+
+}
+
+.name {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 2px 0px 0px 0px;
+}
+
+.about {
+    font-size: 26px;
+   
+}
+
+.button button {
+    margin: 4px 5px 0px 0px;
+    border: 5px double rgba(255, 255, 255, 0.925);
+    padding: 10px 8px;
+    color:white;
+    background-color: rgba(69, 94, 18, 0.925);
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button button:hover
+{
+    cursor: pointer;
+    color:yellowgreen;
+    background-color: rgba(2, 2, 2, 0.925);
+    
+}
